@@ -1,0 +1,151 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "EzzaliBrahim-CV.pdf",
+
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "I build <span class='underline'>web app</span> with Angular, React and Spring Boot.",
+    "Banner.ActionBtn": "Get in touch",
+
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "I am an experienced Full Stack Developer with a high level of expertise in web development. Throughout my career, I have successfully completed multiple projects, both independently and as part of professional teams.",
+        "I possess the ability to adapt quickly and seamlessly integrate myself into collaborative work environments."
+    ],
+
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "Freelancer",
+            "Title": "Fullstack Developer",
+            "Date": "Dec 2022 - Present",
+            "Description": [
+              " Development of a web application allowing Content Creators, Influencers, and Coaches to consolidate their Courses, Masterminds, Posts, and Online Meetings in a single location, while also creating a community of members through the formation of groups.",
+              " Get feedback from members to know what to build and Announce new features and get feedback immediately.",
+              " Give members a place to hangout and connect. ",
+              " Deepen relationship and get ideas from them."
+            ]
+        },
+        {
+            "Tab": "BEREXIA",
+            "Title": "Frontend developer | End of Study Internship",
+            "Date": "Feb 2022 - July 2022",
+            "Description": [
+              "Design and Development of a \"Data Upload\" Module of a Digital Platform for the Management of Reinsurance Activities.",
+              " Make Our Application Reactive Using the RxJs Library.",
+              "State Management Using NgRx to share information between components and minimize the number of Requests sent to our Back-End. And also, how to structure our Store.",
+              "Realization of a secure API using Spring Security and Spring Boot."
+            ]
+        },
+        {
+            "Tab": "STOREINO",
+            "Title": "Fullstack developer | Internship",
+            "Date": "Mar 2021 - July 2021",
+            "Description": [
+              "Development of a web application for managing employees, interns, and company teams.",
+              "Design and modeling of project specifications.",
+              "Handling different tasks performed by the users.",
+              "Realization of a secure API using JWT (Json Web Token).",
+              "Dynamic Dashboard changes according to role of users (Admin, employee, Intern).",
+              "The application is a SPA (Single-Page Application) using Axios to send HTTP requests to the server and Vuex as a state manager."
+            ]
+        },
+        {
+            "Tab": "PepperWorld",
+            "Title": "Fullstack developer | Internship",
+            "Date": "June 2019 - July 2019",
+            "Description": ["Maintenance of an application dedicated to inventory management, human resources and other operations of the company."]
+        }
+    ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "Our Community",
+            "Description": "Development of a web application allowing Content Creators, Influencers, and Coaches to consolidate their Courses, Masterminds, Posts, and Online Meetings in a single location, while also creating a community of members through the formation of groups.",
+            "imgs": [
+                "assets/images/projects/our_community/home.png",
+                "assets/images/projects/our_community/settings.png",
+                "assets/images/projects/our_community/settings2.png",
+                "assets/images/projects/our_community/settings3.png",
+                "assets/images/projects/our_community/settings4.png",
+                "assets/images/projects/our_community/settings5.png",
+                "assets/images/projects/our_community/settings6.png",
+                "assets/images/projects/our_community/members.png",
+                "assets/images/projects/our_community/chat.png"
+            ],
+            "ghLink": "https://github.com/Ezzalibrahim/Fitness-tracker",
+            "demoLink": "https://github.com/Ezzalibrahim/Fitness-tracker",
+            "Technologies": ["Angular", "TypeScript", "HTML/CSS", "Tailwind Css", "RxJs", "NgRx", "Amazon AWS", "Github Actions"]
+        },
+        {
+            "Title": "Employees Management",
+            "Description": "Development of a web application focuses on managing employees, interns, and company teams. The project begins with careful design and modeling of the project specifications to ensure a clear roadmap. The application handles various tasks performed by the users, allowing for seamless workflow management. ",
+            "imgs": [
+                "assets/images/projects/employees_management/admin_dash_employee.png",
+                "assets/images/projects/employees_management/full_card_user.png",
+                "assets/images/projects/employees_management/login.png",
+                "assets/images/projects/employees_management/members_team.png",
+                "assets/images/projects/employees_management/responsive_update_user.png"
+            ],
+            "Technologies": ["VueJS", "JavaScript","(Vue Router / VueX / Axios)", "NodeJS", "ExpressJs", "MongoDB"]
+        },
+        {
+            "Title": "Training Tracker",
+            "ghLink": "https://github.com/Ezzalibrahim/Fitness-tracker",
+            "demoLink" : "",
+            "Description": "Design and Realization of a Web Application for the Management of the sports activities of each individual, he can add a new training (Name, Number of calories, duration ...), can consult the current training and the time remaining to finish and he can also view the history of all training.",
+            "imgs": [
+                "assets/images/projects/training_tracker/training_history.png",
+                "assets/images/projects/training_tracker/training.png",
+                "assets/images/projects/training_tracker/login.png",
+                "assets/images/projects/training_tracker/start.png"
+            ],
+            "Technologies": ["Angular", "TypeScript","HTML/CSS","RxJs","NgRx", "Angular Material", "Firebase"]
+        },
+        {
+            "Title": "E-commerce Website",
+            "Description": "Developing an E-commerce website involves modeling, design, and realization to effectively manage online orders. It includes an administration panel to efficiently handle items, orders, and customers. ",
+            "imgs": [
+                "assets/images/projects/e-commerce_app/shop_home_page.png",
+                "assets/images/projects/e-commerce_app/login.png",
+                "assets/images/projects/e-commerce_app/register.png",
+                "assets/images/projects/e-commerce_app/cart.png",
+                "assets/images/projects/e-commerce_app/categorie.png"
+            ],
+            "Technologies": ["HTML/CSS", "Bootstrap", "JavaScript","Ajax", "PHP","MySQL","UML"] 
+        },
+        {
+            "Title": "Weather App",
+            "Description": "I am developing a weather web application that utilizes the Accuweather API. This application provide users with real-time weather updates.The application has a user-friendly interface, allowing users to easily navigate and obtain the weather details they need.",
+            "imgs": [
+                "assets/images/projects/weatherapp/weatherapp.png"
+            ],
+            "Technologies": ["JavaScript", "HTML", "CSS", "Bootstrap", "Ajax"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [{
+            "Title": "",
+            "Description": "",
+            "ghLink": "",
+            "demoLink": "",
+            "Technologies": []
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "Are you looking for a fast-performing and user-friendly website to represent your product or business? or looking for any kind of consultation? or want to ask questions? or have some advice for me or just want to say \"Hi 👋\" in any case feel free to Let me know. I will do my best to respond back. 😊 The quickest way to reach out to me is via an email.",
+    "Contact.Btn": "Say Hello"
+
+
+}
